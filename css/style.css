@@ -1,0 +1,183 @@
+/* MAIN HEADER STYLES */
+body {
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listitem2 {
+  margin: 10px;
+}
+
+.name {
+  font-size: 3em;
+  padding-left: 8%;
+}
+
+.nav-list {
+  font-size: 1.6em;
+  padding-right: 2.75%;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* NAV BAR LINK STYLES */
+a {
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  opacity: 0.5;
+}
+
+a:link {
+  color: darkslategrey;
+}
+
+a:visited {
+  color: darkslategrey;
+}
+
+a:active {
+  color: darkslategrey;
+}
+
+
+/* TEXT STYLES */
+p {
+  color: darkslategrey;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: slategrey;
+}
+
+
+/* IMAGE STYLES */
+.portfolio-gallery-image {
+  width: 100%;
+}
+
+.portfolio-gallery-image:hover {
+  opacity: 0.5;
+}
+
+
+/* ABOUT PAGE STYLES */
+.aboutinfo {
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.8em;
+  color: lightslategrey;
+}
+
+
+/* INDEX PAGE STYLE */
+figcaption {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+
+
+/* MEDIA STYLES : min-width = 700px */
+@media only screen and (min-width : 700px) {
+
+  .galleryimg {
+    width: 30%;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 10%;
+  }
+
+  .gallerylandscapeimg {
+    padding-top: 10%;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .portfolio-gallery {
+    padding-top: 15%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .column {
+    float: left;
+    width: 40%;
+  }
+
+  .column2 {
+    float: right;
+    width: 40%;
+  }
+
+  .aboutinfo {
+    padding-top: 15%;
+  }
+
+  figure {
+    padding-bottom: 50%;
+  }
+
+  .galcontainer {
+    margin-top: 10%;
+    margin-bottom: 10%
+  }
+
+}
+
+
+/* MEDIA STYLES : max-width = 700px */
+@media only screen and (max-width : 700px) {
+
+  .galleryimg {
+    width: 77%;
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+  }
+
+  .portfolio-gallery {
+    padding-top: 15%;
+  }
+
+  .galcontainer {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%
+  }
+
+  .aboutinfo {
+    padding-top: 35%;
+  }
+
+  figure {
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+  }
+  
+}
